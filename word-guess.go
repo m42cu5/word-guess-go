@@ -13,7 +13,7 @@ func main() {
 	rand.Seed(time.Now().UnixNano())
 	word := words[rand.Intn(3)]
 	wordLength := len(word)
-	// Store the clue in a array for easier manipulation.
+	// Store the clue in an array for easier manipulation.
 	clue := make([]string, wordLength)
 	for i := 0; i < wordLength; i++ {
 		clue[i] = "_"
